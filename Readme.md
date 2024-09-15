@@ -59,7 +59,10 @@ cargo run --bin sirocco 5000
 ## How to Run
 
 1. Start the `sirocco` server (with an optional delay).
-2. Run the `echo-client` to send a message to the `sirocco` server.
+2. Start `kiren` handler, which will forward requests from clients to sirocco and return the response:
+3. Run the `echo-client-tokio` or `echo-client` to send a message to the `kiren` server.
+
+The client sends a message to `kiren`, which forwards it to `sirocco`. `Sirocco` echoes back the message after a configurable delay, and `kiren` passes the response back to the client.
 
 ----
 
