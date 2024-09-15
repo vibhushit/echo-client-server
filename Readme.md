@@ -68,4 +68,4 @@ The client sends a message to `kiren`, which forwards it to `sirocco`. `Sirocco`
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This repository is licensed under the MIT License. Feel free to use the code as you see fit, but please give credit where it’s due!
